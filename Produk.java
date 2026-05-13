@@ -16,4 +16,11 @@ public abstract class Produk {
     public int getStok() {
         return stok;
     }
+
+    public void tampilInfo() {
+        System.out.println("====== Produk ======");
+        System.out.println("Nama: " + nama);
+        System.out.println("Harga: " + harga);
+        System.out.println("Stok: " + stok);
+    }
 }
